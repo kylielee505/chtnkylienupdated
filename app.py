@@ -10,7 +10,7 @@ import gradio as gr
 from huggingface_hub import hf_hub_download
 
 hf_hub_download(
-    repo_id="OEvortex/HelpingAI-6B",
+    repo_id="OEvortex/HelpingAI2-6B",
     filename="helpingai-6b-q4_k_m.gguf",
     local_dir="./models"
 )
