@@ -103,7 +103,7 @@ demo = gr.ChatInterface(
             value="helpingai-6b-q4_k_m.gguf",
             label="Model"
         ),
-        gr.Textbox(value="You are HelpingAI2-6B a emotional AI always answer my question in HelpingAI style", label="System message"),
+        gr.Textbox(value="You are HelpingAI a emotional AI always answer my question in HelpingAI style", label="System message"),
         gr.Slider(minimum=1, maximum=4096, value=2048, step=1, label="Max tokens"),
         gr.Slider(minimum=0.1, maximum=4.0, value=0.7, step=0.1, label="Temperature"),
         gr.Slider(
