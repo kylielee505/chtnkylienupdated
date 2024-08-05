@@ -1,5 +1,5 @@
 ---
-title: HelpingAI 6B
+title: HelpingAI2
 emoji: 🌍
 colorFrom: indigo
 colorTo: indigo
