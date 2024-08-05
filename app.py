@@ -43,7 +43,7 @@ def respond(
             flash_attn=True,
             n_gpu_layers=81,
             n_batch=1024,
-            n_ctx=4096,
+            n_ctx=8192,
         )
         llm_model = model
 
