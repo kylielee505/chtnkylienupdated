@@ -20,7 +20,7 @@ hf_hub_download(
 llm = None
 llm_model = None
 
-@spaces.GPU()
+@spaces.GPU(duration=120)
 def respond(
     message,
     history: list[tuple[str, str]],
