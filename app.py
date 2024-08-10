@@ -19,7 +19,11 @@ hf_hub_download(
     filename="helpingai2-4x6b-q4_k_m.gguf",
     local_dir="./models"
 )
-
+hf_hub_download(
+    repo_id="Abhaykoul/HelpingAI2-9B-Q4_K_M-GGUF",
+    filename="Abhaykoul/HelpingAI2-9B-Q4_K_M-GGUF",
+    local_dir="./models"
+)
 
 llm = None
 llm_model = None
@@ -103,9 +107,10 @@ demo = gr.ChatInterface(
     additional_inputs=[
         gr.Dropdown([
                 'helpingai-6b-q4_k_m.gguf',
-                'helpingai2-4x6b-q4_k_m.gguf'
+                'helpingai2-4x6b-q4_k_m.gguf',
+                'Abhaykoul/HelpingAI2-9B-Q4_K_M-GGUF',
             ],
-            value="helpingai2-4x6b-q4_k_m.gguf",
+            value="Abhaykoul/HelpingAI2-9B-Q4_K_M-GGUF",
             label="Model"
         ),
         gr.Textbox(value="You are HelpingAI a emotional AI always answer my question in HelpingAI style", label="System message"),
