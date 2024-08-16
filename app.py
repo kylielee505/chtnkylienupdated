@@ -20,7 +20,7 @@ hf_hub_download(
     local_dir="./models"
 )
 hf_hub_download(
-    repo_id="Abhaykoul/HelpingAI2-9B-Q5_0-GGUF",
+    repo_id="OEvortex/HelpingAI2-9B",
     filename="helpingai2-9b-q5_0.gguf",
     local_dir="./models"
 )
