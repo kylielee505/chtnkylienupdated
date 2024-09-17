@@ -1,5 +1,5 @@
 ---
-title: HelpingAI2
+title: NSFW6B
 emoji: 🌍
 colorFrom: indigo
 colorTo: indigo
