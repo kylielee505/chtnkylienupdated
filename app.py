@@ -14,7 +14,7 @@ hf_hub_download(
     repo_id="UnfilteredAI/NSFW-6B",
     filename="nsfw-6b-q4_k_m.gguf",
     local_dir="./models"
-))
+)
 
 llm = None
 llm_model = None
